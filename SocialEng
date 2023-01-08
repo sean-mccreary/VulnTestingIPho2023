@@ -15,5 +15,5 @@ Apples step by step for recovery of an Iphone w/out passcode
 https://support.apple.com/en-us/HT204306
 
 Social engineering approach would be to guess passwords for phone unlock, pending a sucessful entry, checking for match between appleID and mail app.
-If these two match as well, then a password reset can be sent to the logged in email. After password change, the appleID can be removed and phone factory reset. 
-In this case, owner of the appleID can still reset their password again and not lose access to accounts. 
+If these two match as well, then a password reset can be sent to the logged in email. After password change, the appleID can be removed and phone factory reset. If there is not an appleID on the phone, then it will be factory reset immediatly.
+In this case, owner of the appleID can still reset their password again and not lose access to accounts. We regognizing that this approach does pose a higher risk to information security and privacy. The factor necessitating this approach is that even under a factory reset the appleID lock will remain intact. As such, the brute force for guessing the appleID password is exponentially more expensive and difficult than the brute force of the lockscreen. 
